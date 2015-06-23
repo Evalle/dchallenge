@@ -1,3 +1,5 @@
 Write a tool which shows information about the images available on a Docker host (eg: which layers are shared between the images, parent-child relationships between images, …).
 
 As a plus ALSO show if there are layers which are no longer relevant on the machine (like the ones produced when running a Docker container without the “--rm” option).
+
+Use docker-py for writing scripts in python for docker containers
